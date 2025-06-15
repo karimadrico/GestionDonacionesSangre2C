@@ -137,7 +137,104 @@ public class GestionDonacionesSangre {
 
     public static void realizar_doancion(String m_NIF, float m_Cantidad, int m_ID_Hospital, Date m_Fecha_Donacion)
             throws SQLException {
-        // Implementación pendiente
+        PoolDeConexiones pool = PoolDeConexiones.getInstance();
+        Connection con = null;
+        PreparedStatement psCheckDonante = null, psCheckHospital = null, psCheckTipo = null, psCheckReserva = null, psInsertReserva = null, psUpdateReserva = null, psInsertDonacion = null, psUltimaDonacion = null;
+        ResultSet rs = null;
+        try {
+            con = pool.getConnection();
+            con.setAutoCommit(false);
+
+            // Validar donante
+            psCheckDonante = con.prepareStatement("SELECT id_tipo_sangre FROM donante WHERE NIF = ?");
+            psCheckDonante.setString(1, m_NIF);
+            rs = psCheckDonante.executeQuery();
+            Integer idTipoSangre = null;
+            if (rs.next()) {
+                idTipoSangre = rs.getInt(1);
+            } else {
+                throw new GestionDonacionesSangreException(GestionDonacionesSangreException.DONANTE_NO_EXISTE);
+            }
+            rs.close();
+
+            // Validar hospital
+            psCheckHospital = con.prepareStatement("SELECT COUNT(*) FROM hospital WHERE id_hospital = ?");
+            psCheckHospital.setInt(1, m_ID_Hospital);
+            rs = psCheckHospital.executeQuery();
+            if (rs.next() && rs.getInt(1) == 0) {
+                throw new GestionDonacionesSangreException(GestionDonacionesSangreException.HOSPITAL_NO_EXISTE);
+            }
+            rs.close();
+
+            // Validar cantidad
+            if (m_Cantidad <= 0 || m_Cantidad > 0.45f) {
+                throw new GestionDonacionesSangreException(GestionDonacionesSangreException.VALOR_CANTIDAD_DONACION_INCORRECTO);
+            }
+
+            // Validar frecuencia de donación (no más de una cada 15 días)
+            psUltimaDonacion = con.prepareStatement("SELECT MAX(fecha_donacion) FROM donacion WHERE nif_donante = ?");
+            psUltimaDonacion.setString(1, m_NIF);
+            rs = psUltimaDonacion.executeQuery();
+            if (rs.next()) {
+                Date ultimaDonacion = rs.getDate(1);
+                if (ultimaDonacion != null) {
+                    int dias = Misc.howManyDaysBetween(m_Fecha_Donacion, ultimaDonacion);
+                    if (dias < 15) {
+                        throw new GestionDonacionesSangreException(GestionDonacionesSangreException.DONANTE_EXCEDE);
+                    }
+                }
+            }
+            rs.close();
+
+            // Comprobar y actualizar/crear reserva
+            psCheckReserva = con.prepareStatement("SELECT cantidad FROM reserva_hospital WHERE id_tipo_sangre = ? AND id_hospital = ?");
+            psCheckReserva.setInt(1, idTipoSangre);
+            psCheckReserva.setInt(2, m_ID_Hospital);
+            rs = psCheckReserva.executeQuery();
+            boolean existeReserva = false;
+            if (rs.next()) {
+                existeReserva = true;
+            }
+            rs.close();
+            if (!existeReserva) {
+                psInsertReserva = con.prepareStatement("INSERT INTO reserva_hospital (id_tipo_sangre, id_hospital, cantidad) VALUES (?, ?, 0)");
+                psInsertReserva.setInt(1, idTipoSangre);
+                psInsertReserva.setInt(2, m_ID_Hospital);
+                psInsertReserva.executeUpdate();
+            }
+            psUpdateReserva = con.prepareStatement("UPDATE reserva_hospital SET cantidad = cantidad + ? WHERE id_tipo_sangre = ? AND id_hospital = ?");
+            psUpdateReserva.setFloat(1, m_Cantidad);
+            psUpdateReserva.setInt(2, idTipoSangre);
+            psUpdateReserva.setInt(3, m_ID_Hospital);
+            psUpdateReserva.executeUpdate();
+
+            // Insertar donación
+            psInsertDonacion = con.prepareStatement("INSERT INTO donacion (id_donacion, nif_donante, cantidad, fecha_donacion) VALUES (seq_donacion.nextval, ?, ?, ?)");
+            psInsertDonacion.setString(1, m_NIF);
+            psInsertDonacion.setFloat(2, m_Cantidad);
+            psInsertDonacion.setDate(3, new java.sql.Date(m_Fecha_Donacion.getTime()));
+            psInsertDonacion.executeUpdate();
+
+            con.commit();
+        } catch (GestionDonacionesSangreException e) {
+            if (con != null) con.rollback();
+            throw e;
+        } catch (SQLException e) {
+            if (con != null) con.rollback();
+            logger.error(e.getMessage());
+            throw e;
+        } finally {
+            if (rs != null) rs.close();
+            if (psCheckDonante != null) psCheckDonante.close();
+            if (psCheckHospital != null) psCheckHospital.close();
+            if (psCheckTipo != null) psCheckTipo.close();
+            if (psCheckReserva != null) psCheckReserva.close();
+            if (psInsertReserva != null) psInsertReserva.close();
+            if (psUpdateReserva != null) psUpdateReserva.close();
+            if (psInsertDonacion != null) psInsertDonacion.close();
+            if (psUltimaDonacion != null) psUltimaDonacion.close();
+            if (con != null) con.close();
+        }
     }
 
     public static void consulta_traspasos(String m_Tipo_Sangre)
