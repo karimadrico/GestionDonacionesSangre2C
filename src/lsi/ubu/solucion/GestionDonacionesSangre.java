@@ -239,7 +239,68 @@ public class GestionDonacionesSangre {
 
     public static void consulta_traspasos(String m_Tipo_Sangre)
             throws SQLException {
-        // Implementación pendiente
+        PoolDeConexiones pool = PoolDeConexiones.getInstance();
+        Connection con = null;
+        PreparedStatement psTipo = null, psConsulta = null;
+        ResultSet rsTipo = null, rs = null;
+        try {
+            con = pool.getConnection();
+
+            // Obtener id_tipo_sangre a partir de la descripción
+            psTipo = con.prepareStatement("SELECT id_tipo_sangre FROM tipo_sangre WHERE descripcion = ?");
+            psTipo.setString(1, m_Tipo_Sangre);
+            rsTipo = psTipo.executeQuery();
+            Integer idTipoSangre = null;
+            if (rsTipo.next()) {
+                idTipoSangre = rsTipo.getInt(1);
+            } else {
+                throw new GestionDonacionesSangreException(GestionDonacionesSangreException.TIPO_SANGRE_NO_EXISTE);
+            }
+            rsTipo.close();
+
+            // Consulta de traspasos con joins
+            String sql = "SELECT t.id_traspaso, t.id_tipo_sangre, ts.descripcion, t.id_hospital_origen, h1.nombre AS hospital_origen, t.id_hospital_destino, h2.nombre AS hospital_destino, t.cantidad, t.fecha_traspaso, " +
+                         "rh1.cantidad AS reserva_origen, rh2.cantidad AS reserva_destino " +
+                         "FROM traspaso t " +
+                         "JOIN tipo_sangre ts ON t.id_tipo_sangre = ts.id_tipo_sangre " +
+                         "JOIN hospital h1 ON t.id_hospital_origen = h1.id_hospital " +
+                         "JOIN hospital h2 ON t.id_hospital_destino = h2.id_hospital " +
+                         "LEFT JOIN reserva_hospital rh1 ON t.id_tipo_sangre = rh1.id_tipo_sangre AND t.id_hospital_origen = rh1.id_hospital " +
+                         "LEFT JOIN reserva_hospital rh2 ON t.id_tipo_sangre = rh2.id_tipo_sangre AND t.id_hospital_destino = rh2.id_hospital " +
+                         "WHERE t.id_tipo_sangre = ? " +
+                         "ORDER BY t.id_hospital_destino, t.fecha_traspaso";
+            psConsulta = con.prepareStatement(sql);
+            psConsulta.setInt(1, idTipoSangre);
+            rs = psConsulta.executeQuery();
+
+            System.out.printf("%-12s %-15s %-20s %-20s %-10s %-15s %-10s %-15s %-15s %-15s\n",
+                "ID_TRASPASO", "TIPO_SANGRE", "HOSP_ORIGEN", "HOSP_DESTINO", "CANTIDAD", "FECHA", "RES_ORIGEN", "RES_DESTINO", "ID_ORIGEN", "ID_DESTINO");
+            System.out.println("-----------------------------------------------------------------------------------------------------------------------------------");
+            while (rs.next()) {
+                System.out.printf("%-12d %-15s %-20s %-20s %-10.2f %-15s %-10.2f %-15.2f %-15d %-15d\n",
+                    rs.getInt("id_traspaso"),
+                    rs.getString("descripcion"),
+                    rs.getString("hospital_origen"),
+                    rs.getString("hospital_destino"),
+                    rs.getFloat("cantidad"),
+                    rs.getDate("fecha_traspaso"),
+                    rs.getFloat("reserva_origen"),
+                    rs.getFloat("reserva_destino"),
+                    rs.getInt("id_hospital_origen"),
+                    rs.getInt("id_hospital_destino"));
+            }
+        } catch (GestionDonacionesSangreException e) {
+            throw e;
+        } catch (SQLException e) {
+            logger.error(e.getMessage());
+            throw e;
+        } finally {
+            if (rs != null) rs.close();
+            if (rsTipo != null) rsTipo.close();
+            if (psTipo != null) psTipo.close();
+            if (psConsulta != null) psConsulta.close();
+            if (con != null) con.close();
+        }
     }
 
     static public void creaTablas() {
