@@ -50,4 +50,5 @@ ID_TRASPASO  TIPO_SANGRE     HOSP_ORIGEN          HOSP_DESTINO         CANTIDAD 
 2025-06-15 15:03:39 ERROR GestionDonacionesSangreException:66 - Tipo Sangre inexistente
 Excepción esperada (tipo sangre): Tipo Sangre inexistente
 FIN.............
-<img width="577" alt="image" src="https://github.com/user-attachments/assets/62b5f5ef-b9db-49e1-8e45-5cd46fc3b9a0" />
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/da154362-19d2-4997-94c6-257f620e24fe" />
+
