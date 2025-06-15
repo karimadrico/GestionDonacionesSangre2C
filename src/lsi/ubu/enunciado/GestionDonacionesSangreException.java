@@ -38,45 +38,43 @@ public class GestionDonacionesSangreException extends SQLException {
 
 	public GestionDonacionesSangreException(int code) {
 		codigo = code;
-		String mensaje = null;
 
 		switch (code) {
 		case DONANTE_NO_EXISTE:
-			mensaje = "Donante inexistente";
+			this.mensaje = "Donante inexistente";
 			break;
 		case TIPO_SANGRE_NO_EXISTE:
-			mensaje = "Tipo Sangre inexistente";
+			this.mensaje = "Tipo Sangre inexistente";
 			break;
 		case HOSPITAL_NO_EXISTE:
-			mensaje = "Hospital ocupado";
+			this.mensaje = "Hospital ocupado";
 			break;
 		case DONANTE_EXCEDE:
-			mensaje = "Donante excede el cupo de donación”.";
+			this.mensaje = "Donante excede el cupo de donación";
 			break;
 		case VALOR_CANTIDAD_DONACION_INCORRECTO:
-			mensaje = "Valor de cantidad de donación incorrecto";
+			this.mensaje = "Valor de cantidad de donación incorrecto";
 			break;
 		case VALOR_CANTIDAD_TRASPASO_INCORRECTO:
-			mensaje = "Valor de cantidad de traspaso por debajo de lo requerido";
+			this.mensaje = "Valor de cantidad de traspaso por debajo de lo requerido";
 			break;			
 		case VALOR_RESERVA_INCORRECTO:
-			mensaje = "Valor de cantidad de reserva por debajo de lo requerido";
+			this.mensaje = "Valor de cantidad de reserva por debajo de lo requerido";
 			break;				
 		}					
 
-		l.error(mensaje);
+		l.error(this.mensaje);
 
 		// Traza_de_pila
 		for (StackTraceElement ste : Thread.currentThread().getStackTrace()) {
 			l.info(ste.toString());
 		}
-
 	}
 
 	@Override
 	public String getMessage() { // Redefinicion del metodo de la clase
 									// Exception
-		return mensaje;
+		return this.mensaje;
 	}
 
 	@Override
