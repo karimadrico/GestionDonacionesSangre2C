@@ -38,13 +38,10 @@ public class EsqueletoGestionDonacionesSangre {
 			int m_ID_Tipo_Sangre, float m_Cantidad, Date m_Fecha_Traspaso)
 			throws SQLException {
 
-		
 		PoolDeConexiones pool = PoolDeConexiones.getInstance();
-		Connection con=null;
 
-	
 		try{
-			con = pool.getConnection();
+			// con = pool.getConnection();
 			
 		} catch (SQLException e) {
 			//Completar por el alumno			
@@ -55,20 +52,15 @@ public class EsqueletoGestionDonacionesSangre {
 		} finally {
 			/*A rellenar por el alumno, liberar recursos*/
 		}
-		
-		
 	}
 	
 	public static void realizar_doancion(String m_NIF, float m_Cantidad,int m_ID_Hospital, Date m_Fecha_Donacion)
 			throws SQLException {
 
-		
 		PoolDeConexiones pool = PoolDeConexiones.getInstance();
-		Connection con=null;
 
-	
 		try{
-			con = pool.getConnection();
+			// con = pool.getConnection();
 			
 		} catch (SQLException e) {
 			//Completar por el alumno			
@@ -84,13 +76,10 @@ public class EsqueletoGestionDonacionesSangre {
 	public static void consulta_traspasos(String m_Tipo_Sangre)
 			throws SQLException {
 
-				
 		PoolDeConexiones pool = PoolDeConexiones.getInstance();
-		Connection con=null;
 
-	
 		try{
-			con = pool.getConnection();
+			// con = pool.getConnection();
 			
 		} catch (SQLException e) {
 			//Completar por el alumno			
