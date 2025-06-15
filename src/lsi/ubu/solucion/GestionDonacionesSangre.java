@@ -322,6 +322,69 @@ public class GestionDonacionesSangre {
             if (cll_reinicia != null) cll_reinicia.close();
             if (conn != null) conn.close();
         }
-        // Aquí se implementarán las pruebas de las transacciones
+
+        System.out.println("\n--- PRUEBAS realizar_traspaso ---");
+        try {
+            realizar_traspaso(1, 2, 1, 1.0f, Misc.getCurrentDate()); // Caso normal
+            System.out.println("Traspaso realizado correctamente.");
+        } catch (Exception e) {
+            System.out.println("Error en traspaso normal: " + e.getMessage());
+        }
+        try {
+            realizar_traspaso(99, 2, 1, 1.0f, Misc.getCurrentDate()); // Hospital origen inexistente
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (hospital origen): " + e.getMessage());
+        }
+        try {
+            realizar_traspaso(1, 2, 99, 1.0f, Misc.getCurrentDate()); // Tipo sangre inexistente
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (tipo sangre): " + e.getMessage());
+        }
+        try {
+            realizar_traspaso(1, 2, 1, -1.0f, Misc.getCurrentDate()); // Cantidad incorrecta
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (cantidad traspaso): " + e.getMessage());
+        }
+
+        System.out.println("\n--- PRUEBAS realizar_doancion ---");
+        try {
+            realizar_doancion("12345678A", 0.4f, 1, Misc.getCurrentDate()); // Caso normal
+            System.out.println("Donación realizada correctamente.");
+        } catch (Exception e) {
+            System.out.println("Error en donación normal: " + e.getMessage());
+        }
+        try {
+            realizar_doancion("99999999Z", 0.4f, 1, Misc.getCurrentDate()); // Donante inexistente
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (donante): " + e.getMessage());
+        }
+        try {
+            realizar_doancion("12345678A", 0.5f, 1, Misc.getCurrentDate()); // Cantidad incorrecta
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (cantidad donación): " + e.getMessage());
+        }
+        try {
+            realizar_doancion("12345678A", 0.4f, 99, Misc.getCurrentDate()); // Hospital inexistente
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (hospital): " + e.getMessage());
+        }
+        try {
+            // Donar dos veces el mismo día (debe fallar por frecuencia)
+            realizar_doancion("12345678A", 0.4f, 1, Misc.getCurrentDate());
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (frecuencia donación): " + e.getMessage());
+        }
+
+        System.out.println("\n--- PRUEBAS consulta_traspasos ---");
+        try {
+            consulta_traspasos("Tipo A."); // Caso normal
+        } catch (Exception e) {
+            System.out.println("Error en consulta traspasos: " + e.getMessage());
+        }
+        try {
+            consulta_traspasos("Tipo X."); // Tipo sangre inexistente
+        } catch (Exception e) {
+            System.out.println("Excepción esperada (tipo sangre): " + e.getMessage());
+        }
     }
 } 
