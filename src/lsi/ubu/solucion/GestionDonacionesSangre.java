@@ -17,6 +17,21 @@ public class GestionDonacionesSangre {
         tests();
         System.out.println("FIN.............");
     }
+    
+    /**
+     * Realiza un traspaso de sangre entre hospitales.
+     * Escribe un registro en la tabla traspaso y actualiza las reservas de ambos hospitales.
+     * Si la reserva de un hospital no existe, la crea para el tipo de sangre correspondiente.
+     *
+     * @param m_ID_Hospital_Origen ID del hospital origen
+     * @param m_ID_Hospital_Destino ID del hospital destino
+     * @param m_ID_Tipo_Sangre ID del tipo de sangre
+     * @param m_Cantidad Cantidad a traspasar en litros
+     * @param m_Fecha_Traspaso Fecha del traspaso
+     * @throws SQLException Si ocurre un error en la base de datos
+     * @throws GestionDonacionesSangreException Si hay un error de validación
+     */
+
 
     public static void realizar_traspaso(int m_ID_Hospital_Origen, int m_ID_Hospital_Destino,
                                          int m_ID_Tipo_Sangre, float m_Cantidad, Date m_Fecha_Traspaso)

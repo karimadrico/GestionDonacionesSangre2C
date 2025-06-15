@@ -47,7 +47,7 @@ public class GestionDonacionesSangreException extends SQLException {
 			this.mensaje = "Tipo Sangre inexistente";
 			break;
 		case HOSPITAL_NO_EXISTE:
-			this.mensaje = "Hospital ocupado";
+			this.mensaje = "Hospital Inexistente";
 			break;
 		case DONANTE_EXCEDE:
 			this.mensaje = "Donante excede el cupo de donación";
