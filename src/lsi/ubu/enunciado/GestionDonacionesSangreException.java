@@ -5,6 +5,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * Se ha eliminado la declaracion local de mensajeen el constructor y ahora se asigna
+ * directamente al campo de la clase.
+ * Corregí el mensaje de error para DONANTE_EXCEDE eliminando un punto extra.
+ * Limpié los comentarios innecesarios en los métodos getMessage() y getErrorCode().
  * GestionDonacionesSangreException:
  * Implementa las excepciones contextualizadas de la transacciones
  * de gestion de medicos

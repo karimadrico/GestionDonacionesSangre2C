@@ -1,0 +1,564 @@
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:58.958 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:58.961 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.238 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.239 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.296 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.296 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.300 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.300 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.300 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.300 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:46)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.301 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:334)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.301 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.302 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.303 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.303 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.304 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.304 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.304 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:37)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.304 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:339)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.304 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.305 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.306 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.307 [main] GestionDonacionesSangreException - Valor de cantidad de traspaso por debajo de lo requerido
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.307 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.307 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.308 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:58)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.308 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:344)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.308 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.308 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.308 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.324 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.324 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.325 [main] GestionDonacionesSangreException - Donante inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.326 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.326 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.326 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:156)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.326 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:357)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.326 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.327 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.327 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.329 [main] GestionDonacionesSangreException - Valor de cantidad de donación incorrecto
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.329 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.329 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.329 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:171)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.329 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:362)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.329 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.330 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.330 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.331 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.331 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.331 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.331 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:165)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.331 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:367)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.331 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.332 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.332 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.334 [main] GestionDonacionesSangreException - Donante excede el cupo de donación”.
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.334 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.334 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.335 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:183)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.335 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:373)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.335 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.335 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.335 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:42:59.352 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:42:59.352 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:42:59.353 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.353 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.353 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.353 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.consulta_traspasos(GestionDonacionesSangre.java:257)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.353 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:385)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:42:59.353 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.240 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.242 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Dom Jun 15 14:49:50 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.242 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.242 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.244 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.287 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.287 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.287 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.288 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.412 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.412 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.412 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.437 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.437 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.437 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.456 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.457 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.457 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.480 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.480 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.480 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.498 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.498 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.498 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.518 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.518 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.519 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.530 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.530 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.531 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.535 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.535 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.535 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.540 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.540 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.540 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.544 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.544 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.544 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.555 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.555 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.556 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.667 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.668 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.668 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.672 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.672 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.672 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.708 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.708 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.708 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.742 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.742 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.742 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.779 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.779 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.779 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.783 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.783 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.783 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.817 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.817 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.817 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.822 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.822 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.822 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.858 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.858 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.858 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.870 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.870 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.870 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.947 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.947 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.947 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:49:50.948 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.413 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.413 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.530 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.530 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.566 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.566 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.568 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.568 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.569 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.569 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:46)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.569 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:334)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.569 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.570 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.570 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.571 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.571 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.571 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.571 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:37)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.571 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:339)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.571 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.572 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.572 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.573 [main] GestionDonacionesSangreException - Valor de cantidad de traspaso por debajo de lo requerido
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.573 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.573 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.573 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:58)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.573 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:344)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.573 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.574 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.574 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.684 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.685 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.686 [main] GestionDonacionesSangreException - Donante inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.686 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.686 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.686 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:156)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.686 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:357)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.686 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.687 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.688 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.689 [main] GestionDonacionesSangreException - Valor de cantidad de donación incorrecto
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.689 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.689 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.689 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:171)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.689 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:362)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.689 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.692 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.692 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.693 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.693 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.693 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.693 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:165)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.693 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:367)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.693 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.693 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.693 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.695 [main] GestionDonacionesSangreException - Donante excede el cupo de donación”.
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.695 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.695 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.695 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:183)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.695 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:373)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.695 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.696 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.696 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:49:51.828 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:49:51.828 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:63)]2025-06-15 14:49:51.831 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.831 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.832 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:66)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.832 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.consulta_traspasos(GestionDonacionesSangre.java:257)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.832 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:385)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:49:51.832 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.970 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.972 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Dom Jun 15 14:52:47 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.972 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.972 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.973 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.991 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.991 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.991 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:47.991 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.012 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.012 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.012 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.027 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.027 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.027 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.043 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.044 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.044 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.060 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.061 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.061 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.074 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.075 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.075 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.089 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.090 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.090 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.094 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.095 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.095 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.099 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.099 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.099 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.104 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.104 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.104 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.110 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.110 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.110 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.116 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.116 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.116 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.144 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.144 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.144 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.149 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.150 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.150 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.179 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.179 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.179 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.213 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.213 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.213 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.246 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.247 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.247 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.251 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.251 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.251 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.285 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.285 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.285 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.291 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.291 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.291 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.326 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.327 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.327 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.329 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.329 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.329 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.349 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.350 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.350 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:52:48.350 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.764 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.764 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.863 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.863 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.894 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.895 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.896 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.897 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.897 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.897 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:46)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.897 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:334)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.897 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.898 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.898 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.898 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.899 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.899 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.899 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:37)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.899 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:339)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.899 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.899 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.899 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.901 [main] GestionDonacionesSangreException - Valor de cantidad de traspaso por debajo de lo requerido
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.901 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.901 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.901 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:58)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.901 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:344)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.901 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.902 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.902 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.914 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.914 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.915 [main] GestionDonacionesSangreException - Donante inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.915 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.915 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.916 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:156)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.916 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:357)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.916 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.917 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.917 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.918 [main] GestionDonacionesSangreException - Valor de cantidad de donación incorrecto
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.919 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.919 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.919 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:171)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.919 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:362)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.919 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.920 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.920 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.921 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.921 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.921 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.921 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:165)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.921 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:367)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.921 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.922 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.922 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:48.925 [main] GestionDonacionesSangreException - Donante excede el cupo de donación”.
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.925 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.925 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.925 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:183)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.925 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:373)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:48.925 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:48.926 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:48.926 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:52:49.061 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:52:49.061 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:52:49.062 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:49.062 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:49.062 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:49.062 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.consulta_traspasos(GestionDonacionesSangre.java:257)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:49.062 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:385)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:52:49.062 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.286 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.287 [main] ExecuteScript - SQL*Plus: Release 11.2.0.2.0 Production on Dom Jun 15 14:53:17 2025
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.287 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.287 [main] ExecuteScript - Copyright (c) 1982, 2011, Oracle.  All rights reserved.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.288 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.299 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.299 [main] ExecuteScript - Connected to:
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.299 [main] ExecuteScript - Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.299 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.318 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.318 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.318 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.329 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.330 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.330 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.346 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.348 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.348 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.363 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.363 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.363 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.377 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.377 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.378 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.394 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.394 [main] ExecuteScript - Table dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.395 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.399 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.400 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.400 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.404 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.404 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.405 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.409 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.409 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.409 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.415 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.416 [main] ExecuteScript - Sequence dropped.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.416 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.420 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.420 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.420 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.454 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.454 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.454 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.460 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.460 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.460 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.488 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.488 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.488 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.519 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.519 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.519 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.548 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.548 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.548 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.553 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.553 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.554 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.586 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.586 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.586 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.590 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.591 [main] ExecuteScript - Sequence created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.591 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.617 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.618 [main] ExecuteScript - Table created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.618 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.620 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.620 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.620 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.638 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.638 [main] ExecuteScript - Procedure created.
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.638 [main] ExecuteScript - 
+DEBUG: [lsi.ubu.util.ExecuteScript.run(ExecuteScript.java:59)]2025-06-15 14:53:17.639 [main] ExecuteScript - Disconnected from Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.021 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.021 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.118 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.118 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.157 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.158 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.160 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.161 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.161 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.161 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:46)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.161 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:334)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.161 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.162 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.162 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.163 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.163 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.163 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.163 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:37)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.163 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:339)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.164 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.164 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.164 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.165 [main] GestionDonacionesSangreException - Valor de cantidad de traspaso por debajo de lo requerido
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.166 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.166 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.166 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_traspaso(GestionDonacionesSangre.java:58)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.166 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:344)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.166 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.166 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.167 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.176 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.177 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.178 [main] GestionDonacionesSangreException - Donante inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.178 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.178 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.178 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:156)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.178 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:357)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.178 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.178 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.179 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.179 [main] GestionDonacionesSangreException - Valor de cantidad de donación incorrecto
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.180 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.180 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.180 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:171)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.180 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:362)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.180 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.181 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.181 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.182 [main] GestionDonacionesSangreException - Hospital ocupado
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.182 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.182 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.182 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:165)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.182 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:367)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.182 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.183 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.183 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.185 [main] GestionDonacionesSangreException - Donante excede el cupo de donación”.
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.185 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.185 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.185 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.realizar_doancion(GestionDonacionesSangre.java:183)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.185 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:373)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.185 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.186 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.186 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:109)]2025-06-15 14:53:18.311 [main] PoolDeConexiones - Activacion de Autocommit=false
+INFO : [lsi.ubu.util.PoolDeConexiones.getConnection(PoolDeConexiones.java:117)]2025-06-15 14:53:18.311 [main] PoolDeConexiones - Activacion de Autocommit=false
+Nivel de Aislamiento=TRANSACTION_READ_COMMITTED
+ERROR: [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:67)]2025-06-15 14:53:18.312 [main] GestionDonacionesSangreException - Tipo Sangre inexistente
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.313 [main] GestionDonacionesSangreException - java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.313 [main] GestionDonacionesSangreException - lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:70)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.313 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.consulta_traspasos(GestionDonacionesSangre.java:257)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.313 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.tests(GestionDonacionesSangre.java:385)
+INFO : [lsi.ubu.enunciado.GestionDonacionesSangreException.<init>(GestionDonacionesSangreException.java:71)]2025-06-15 14:53:18.313 [main] GestionDonacionesSangreException - lsi.ubu.solucion.GestionDonacionesSangre.main(GestionDonacionesSangre.java:17)
