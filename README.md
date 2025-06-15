@@ -1,3 +1,24 @@
+# Gestión Donaciones Sangre 2C
+
+## Descripción
+
+Este proyecto implementa la gestión de donaciones y traspasos de sangre entre hospitales utilizando JDBC y una base de datos Oracle. Incluye las siguientes funcionalidades principales:
+
+- **realizar_traspaso**: Traspaso de sangre entre hospitales, actualizando reservas y registrando el movimiento.
+- **realizar_doancion**: Registro de donaciones de sangre, validando cantidad y frecuencia, y actualizando reservas.
+- **consulta_traspasos**: Consulta de todos los traspasos de un tipo de sangre, mostrando información relevante de hospitales y reservas.
+
+## Estructura del Proyecto
+
+- `src/lsi/ubu/solucion/GestionDonacionesSangre.java`: Implementación de las transacciones y pruebas.
+- `src/lsi/ubu/enunciado/GestionDonacionesSangreException.java`: Excepciones personalizadas para la gestión de errores.
+- `sql/gestion_donaciones_sangre.sql`: Script para crear y poblar las tablas necesarias.
+- `lib/`: Librerías necesarias (JDBC, SLF4J, Log4J, etc.).
+- `user_library`: Biblioteca de usuario de Eclipse con las dependencias requeridas.
+
+**Autor:** Karima Drafli Rico
+
+# EJECUCIÓN:
 
 --- PRUEBAS realizar_traspaso ---
 Traspaso realizado correctamente.
@@ -20,6 +41,7 @@ Excepción esperada (hospital): Hospital Inexistente
 Excepción esperada (frecuencia donación): Donante excede el cupo de donación
 
 --- PRUEBAS consulta_traspasos ---
+
 ID_TRASPASO  TIPO_SANGRE     HOSP_ORIGEN          HOSP_DESTINO         CANTIDAD   FECHA           RES_ORIGEN RES_DESTINO     ID_ORIGEN       ID_DESTINO     
 -----------------------------------------------------------------------------------------------------------------------------------
 1            Tipo A.         Complejo Asistencial de Avila Hospital Santos Reyes de Aranda de Duero 2,00       2025-01-11      2,85       3,45            1               2              
